@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.5rem;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button,
+p {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.button,
+h2 {
+    color: hsl(0, 0%, 95%);
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 0.5rem 0.5rem 0 0;
+    -webkit-border-radius: 0.5rem 0.5rem 0 0;
+    -moz-border-radius: 0.5rem 0.5rem 0 0;
+    -ms-border-radius: 0.5rem 0.5rem 0 0;
+    -o-border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 0.5rem 0.5rem;
+    -webkit-border-radius: 0 0 0.5rem 0.5rem;
+    -moz-border-radius: 0 0 0.5rem 0.5rem;
+    -ms-border-radius: 0 0 0.5rem 0.5rem;
+    -o-border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.container .button {
+    background-color: hsl(0, 0%, 95%);
+    border: 0.1rem solid hsl(0, 0%, 95%);
+    outline: none;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.container .button:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+}
+
+.btn1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.container {
+    padding: 1.5rem;
+}
+
+.car {
+    padding: 2.7rem;
+}
+
+.container .car img {
+    margin-bottom: 2.1rem;
+}
+
+.container .car h2 {
+    margin-bottom: 1.8rem;
+}
+
+.container .car p {
+    margin-bottom: 2.5rem;
+    line-height: 1.8rem;
+}
+
+@media (min-width: 992px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        width: 900px;
+        margin: auto;
+    }
+
+    .sedans {
+        border-radius: 0.5rem 0 0 0.5rem;
+        -webkit-border-radius: 0.5rem 0 0 0.5rem;
+        -moz-border-radius: 0.5rem 0 0 0.5rem;
+        -ms-border-radius: 0.5rem 0 0 0.5rem;
+        -o-border-radius: 0.5rem 0 0 0.5rem;
+    }
+
+    .luxury {
+        border-radius: 0 0.5rem 0.5rem 0;
+        -webkit-border-radius: 0 0.5rem 0.5rem 0;
+        -moz-border-radius: 0 0.5rem 0.5rem 0;
+        -ms-border-radius: 0 0.5rem 0.5rem 0;
+        -o-border-radius: 0 0.5rem 0.5rem 0;
+    }
+}
