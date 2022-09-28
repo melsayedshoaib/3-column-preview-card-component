@@ -42,7 +42,9 @@ p {
 h2 {
     color: hsl(0, 0%, 95%);
 }
-
+a {
+    text-decoration: none;
+}
 .sedans {
     background-color: hsl(31, 77%, 52%);
     border-radius: 0.5rem 0.5rem 0 0;
