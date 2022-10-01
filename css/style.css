@@ -18,7 +18,13 @@ html {
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-top: -7.5rem;
+}
+
+@media (max-width: 991px) {
+    .attribution {
+        margin-top: -1rem;
+    }
 }
 
 .attribution a {
@@ -84,9 +90,11 @@ p {
 h2 {
     color: hsl(0, 0%, 95%);
 }
+
 a {
     text-decoration: none;
 }
+
 .sedans {
     background-color: hsl(31, 77%, 52%);
     border-radius: 0.5rem 0.5rem 0 0;
